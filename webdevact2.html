@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>
+        Contact Details
+    </title>
+</head>
+    <style>
+       
+       
+        table{
+            border-collapse: collapse;
+            width: 50%;
+            margin: 20px auto;
+
+        }
+
+        th, td{
+
+            border:2px solid black;
+            padding: 3px;
+            font-family: Arial;
+        }
+
+
+    </style>
+        <h2> Contact Info </h2>
+            <body>
+                <form>
+                    <div>
+                        <label>Last Name</label>
+                        <input type="text" name="lname" id="lname">
+                    </div>
+                    <div>
+                        <label>First Name</label>
+                        <input type="text" name="fname" id="fname">
+                    </div>
+                    <div>
+                        <label>Email Add: </label>
+                        <input type="text" name="email" id="email">
+                    </div>
+                    <div>
+                        <label>Contact #:</label>
+                        <input type="text" name="cntct" id="cntct">
+                    </div>
+
+                    <div class="form-action-buttons">
+                        <input id="submitdata"type="submit" value="Submit">
+                    </div>
+                </form>
+            </td>
+            
+                <table class="list" id="insertedList">
+                    <thead>
+                        <tr>
+                            <th>Last Name</th>
+                            <th>First Name</th>
+                            <th>Email</th>
+                            <th>Contact #</th>
+                            <th> Options </th>
+                            
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                
+        </tr>
+    </table>
+    <script src="index.js"></script>
+    <script>
+        $("#submitdata").click(function(event){
+            event.preventDefault();
+            onFormSubmit();
+        });
+        $("html").css("background-color", "#D3D3D3");
+        $("h2").css("text-align", "center");
+        $("div").css("text-align", "center");
+        $("div").css("width", "collapse");
+        $("div").css("margin-top", "15px");
+
+    </script>
+</body>
+
+</html>

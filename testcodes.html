@@ -1,0 +1,44 @@
+<html>
+    <head>
+
+        <style>
+            #box {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+#buttons {
+  margin-top: 50px;
+}
+        </style>
+
+    </head>
+    <body>
+
+
+        <div id='box'></div>
+        <p id='test'> </p>
+<div id='buttons'>
+  <button id='yes'>yes</button>
+  <button id='no'>no</button>
+  <p>Click one of the buttons above.</p>
+</div>
+    </body>
+<script>
+var box = document.getElementById('box');
+
+document.getElementById('buttons').addEventListener('click', function(evt) {
+  var target = evt.target;
+  if (target.id === 'yes') {
+    box.style.backgroundColor = 'red';
+    document.getElementById('test').innerHTML = "hello world!";
+  } else if (target.id === 'no') {
+    box.style.backgroundColor = 'green';
+    document.getElementById('test').innerHTML ="" ; 
+  } else {
+    box.style.backgroundColor = 'purple';
+  }
+}, false);
+
+</script>
+</html>
