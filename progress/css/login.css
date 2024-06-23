@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;800&display=swap');
+/* GENERAL */
+* {
+  font-family: 'Roboto Slab', serif;
+  margin: auto;
+  /* box-sizing: border-box; */
+}
+body{
+   background-color: #9f86e3;; 
+
+}
+
+/* NAVBAR */
+
+#navbar{
+  display: flex;
+  height: 80px;
+  background-color: #1D0F0B;
+}
+#logo-name{
+  margin-right: 5rem;  
+}
+#logo-name h1{
+ color: #FCF7F7;
+ font-weight: 800;
+ font-weight: bold;
+ font-size:50px;
+}
+
+/* FORM  */
+.form-container{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 50px;
+  height: 450px;
+  width: 400px;
+  background-color: #C0C0C0;
+  border-radius: 5%;
+  box-shadow: 10px 10px 5px #626262;
+}
+#form-input{
+  margin-bottom: -50px;
+}
+#form-logo{
+  height: 120px;
+  width: 160px;
+  border-radius: 10%;
+  background-color: #cd1999;
+  overflow: hidden;
+  align-items: center;
+}
+#form-logo img{
+  height: 120px;
+  width: 160px;
+}
+#form-logo h1{
+  font-weight: 300;
+}
+form{
+  align-self: center;
+  margin: auto;
+  font-size: 12pt;
+  color: #C0C0C0;
+  width: 350px;
+  height: 215px;
+}
+input, .btn{
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 14px;
+}
+input:focus{
+  outline: none;
+}
+input[type=text],input[type=password], input[type=email],input[type=tel]{
+  width: 250px;
+  height: 45px;
+}
+input[type=text],input[type=password], input[type=email],[type=tel]{
+  padding-left: 25px;
+  flex-direction: column;
+}
+input[type=submit], .btn{
+  width: 275px;
+  height: 45px;
+  background-color: #626262;
+  color: #FCF7F7;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.btn:hover,input[type=submit]:hover{
+  opacity: 0.5;
+}
+
+/*REGISTRATION*/
+#reg-header{
+  width: 350px;
+  height: 50px;
+  margin-top:15px;
+  display: flex;
+  color: #FCF7F7;
+}
+
+#register-form{
+  text-align: center;
+  font-size: 12pt;
+  color: #626262;
+  width: 350px;
+  height: 295px;
+  margin: 0;
+}
+
+h2{
+
+  color: #000000;
+}
