@@ -1,6 +1,6 @@
   <div id="navbar">
     <div id="logo-name">
-      <h1>milkTEAbar</h1>
+      <h1>BobaShop🧋</h1>
     </div>
     <div id="navbar-btn">
       <a href="#" class="menu-bars" id="show-side">

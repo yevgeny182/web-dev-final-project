@@ -4,10 +4,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>milkTEAbar</title>
+  <title>MilkTEAbar | BobaShop</title>
   <link rel="icon" href="images/generic logo.jpg">
   <link rel="stylesheet" href="css/login.css?v=<?php echo time(); ?>">
-
+  <style>
+    body {
+      background-image: url("images/milktea_bgrnd2.png");
+      background-size: 230vh auto;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+  </style>
 </head>
 
 <body>
@@ -34,7 +41,7 @@ else{
 ?>
   <div id="navbar">
     <div id="logo-name">
-      <h1>milkTEAbar</h1>
+      <h1>BobaShop🧋</h1>
     </div>
   </div>
 
@@ -51,7 +58,7 @@ else{
     </div>
     <div class="lower-div">
      <a href="new.php"><button class="btn">Register Here</button></a>
-     <h6> Copyright milkTEAbar™ 2021 All Rights Reserved </h6>
+     <h6> BobaShop formerly milkTEAbar™ Copyright All Rights Reserved 2024 </h6>
     </div>
   </div>
 
